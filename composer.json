@@ -1,0 +1,27 @@
+{
+  "name": "jostkleigrewe/lib-php",
+  "type": "library",
+  "description": "PHP library with useful tools",
+  "keywords": ["php", "tools", "library"],
+  "homepage": "https://projects.jostkleigrewe.com",
+  "license": "MIT",
+  "authors": [
+    {"name": "Sven Jostkleigrewe", "email": "projects@jostkleigrewe.com"}
+  ],
+  "require": {
+    "php": "^8.0"
+  },
+  "require-dev": {
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": { "Jostkleigrewe\\Tools\\": "lib/Jostkleigrewe/Tools" }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Jostkleigrewe\\Test\\Tools\\": "tests/Jostkleigrewe/Tools"
+    }
+  }
+}
